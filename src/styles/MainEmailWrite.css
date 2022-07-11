@@ -1,0 +1,42 @@
+.email-write {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    color: black;
+    height: 12rem;
+    margin: 3rem 1rem 3rem 1rem;
+}
+
+.email-write-to {
+    margin: 1rem;
+}
+
+.email-write-to .icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.email-write-to .text {
+    display: inline-block;
+    margin-left: 2rem;
+    color: gray;
+} 
+
+.email-write-send {
+    margin: 1rem;
+}
+
+.email-write-send .button {
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+  
+    border-radius: 0.5rem;
+    border: 1px solid #a1a1a1;
+    background-color: transparent;
+  
+    color: white;
+    font-weight: bold;
+    background-color: royalblue;
+}
